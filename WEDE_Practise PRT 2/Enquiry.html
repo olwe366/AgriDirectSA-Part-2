@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit sourcing enquiries or register as a farmer with AgriDirect SA.">
+    <title>Enquiry & How It Works | AgriDirect SA</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Header & Main Navigation -->
+    <header>
+        <div class="logo">
+            <h1>AgriDirect SA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Enquiry.html" class="active">Enquiry</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="overview">
+            <h2>Simple, Transparent Farm Sourcing</h2>
+            <p>Our platform eliminates traditional middleman costs by creating a direct link between smallholder farms and commercial kitchens.</p>
+        </section>
+
+        <!-- Workflow Section -->
+        <section id="for-farmers">
+            <h2>How It Works</h2>
+            <ol>
+                <li><strong>Browse Catalogue:</strong> Search local listings for produce by region, volume, and harvest date.</li>
+                <li><strong>Submit Enquiry:</strong> Request bulk pricing or direct supply arrangements using the form below.</li>
+                <li><strong>Receive Delivery & Support:</strong> Receive fresh farm deliveries while growers get direct and transparent payment.</li>
+            </ol>
+        </section>
+
+        <!-- Direct Enquiry Form -->
+        <section id="enquiry-form-section">
+            <h2>Submit a Business Enquiry</h2>
+            <form action="#" method="POST">
+                <label for="user-role">I am a:</label>
+                <select id="user-role" name="user_role" required>
+                    <option value="buyer">Commercial Buyer / Chef / Restaurant</option>
+                    <option value="farmer">Farmer / Agricultural Producer</option>
+                </select>
+
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full_name" placeholder="John Doe" required>
+
+                <label for="business-name">Business / Farm Name:</label>
+                <input type="text" id="business-name" name="business_name" placeholder="Green Garden Kitchen / Valley Farm" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="john@example.co.za" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+27 82 123 4567" required>
+
+                <label for="produce-details">Produce & Quantity Needed / Offered:</label>
+                <textarea id="produce-details" name="produce_details" rows="5" placeholder="e.g. Requiring 50 crates of bulk tomatoes weekly in Durban" required></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 AgriDirect SA. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

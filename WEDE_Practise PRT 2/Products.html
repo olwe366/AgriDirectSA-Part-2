@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse fresh produce directly from local South African farmers on AgriDirect SA's B2B marketplace.">
+    <title>Produce Catalogue | AgriDirect SA</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Header & Main Navigation -->
+    <header>
+        <div class="logo">
+            <h1>AgriDirect SA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Enquiry.html">Enquiry</a></li>
+                <li><a href="Products.html" class="active">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Catalogue Content -->
+    <main>
+        <section id="catalogue-header">
+            <h2>Available Farm Produce</h2>
+            <p>Direct pricing from local growers. Filter or search to find produce in your area.</p>
+        </section>
+
+        <!-- Search & Filter Form -->
+        <section id="filter-section">
+            <form action="#" method="get">
+                <label for="search">Search Produce:</label>
+                <input type="text" id="search" name="search" placeholder="e.g. Tomatoes, Spinach...">
+
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="all">All Categories</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="herbs">Herbs</option>
+                </select>
+
+                <button type="submit">Filter Listings</button>
+            </form>
+        </section>
+
+        <!-- Product Grid Listings -->
+        <section id="produce-grid">
+            <article class="product-card">
+                <img src="images/tomatoes.jpg" alt="Crate of red tomatoes ready for wholesale">
+                <h3>Fresh Bulk Tomatoes</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Umngeni Valley Farm</p>
+                <p><strong>Price:</strong> R180 per 10kg Crate</p>
+                <p><strong>Stock Availability:</strong> 45 Crates</p>
+                <p><strong>Location:</strong> Midlands, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card">
+                <img src="images/spinach.jpg" alt="Freshly harvested spinach bundles">
+                <h3>Organic Spinach Bundles</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Sunshine Organics</p>
+                <p><strong>Price:</strong> R15 per bundle</p>
+                <p><strong>Stock Availability:</strong> 100 Bundles</p>
+                <p><strong>Location:</strong> Ballito, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <p>&copy; 2026 AgriDirect SA. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
