@@ -11,57 +11,70 @@ Web Development
 
 ## 📌 Project Overview
 
-This repository contains the full Portfolio of Evidence (PoE) submission for **WEDE5020**, spanning **Part 1 (Semantic HTML5 Architecture)**, **Part 2 (CSS Styling & Responsive Layouts)**, and **Part 3 (Dynamic JavaScript & Form Validation)**.
+This repository contains the Portfolio of Evidence (PoE) submission for **WEDE5020**, covering **Part 1 (Semantic HTML5 Architecture)**, **Part 2 (CSS Styling & Responsive Layouts)**, and **Part 3 (Dynamic JavaScript & Form Validation)**.
 
-The repository includes code and documentation for the following website projects:
-1. **AgriDirect SA:** A digital B2B marketplace platform connecting smallholder produce farmers directly with commercial buyers (restaurants, caterers, and grocers) to eliminate middleman markups.
-2. **DriveSmart Foundation:** A community-focused non-profit platform providing low-income buyers with access to reliable used vehicle inspections, educational workshops, paperwork support, and fair financing guidance.
+**AgriDirect SA** is a digital B2B marketplace platform connecting smallholder produce farmers directly with commercial buyers (restaurants, caterers, and grocers) to eliminate middleman markups.
 
 ---
 
 ## 🚀 Live Demo & Repository Links
 
-* **GitHub Repository:** `https://github.com/olwe366/AgriDirectSA-Part-2.git
-* **GitHub Pages Deployment (AgriDirect SA):** `https://ST10493769.github.io/WEDE5020_POE/agridirect/`
-
+* **GitHub Repository:** https://github.com/olwe366/AgriDirectSA-Part-2
+* **GitHub Pages Deployment (AgriDirect SA):** https://olwe366.github.io/AgriDirectSA-Part-2/agridirect/Index.html
 
 ---
 
 ## 📁 Repository Folder Structure
 
 ```text
-WEDE5020_POE/
+AgriDirectSA-Part-2/
 │
-├── README.md                           # Main Project Documentation & Marking Guide
-├── docs/                               # Project Proposals & Design Documentation
-│   ├── AgriDirect_SA_Proposal.pdf
-│   
+├── README.md                     # Main Project Documentation
 │
-├── agridirect/                         # AgriDirect SA Project Files
-│   ├── index.html                      # Homepage
-│   ├── about.html                      # About Us & Mission
-│   ├── products.html                   # Dynamic Produce Catalogue
-│   ├── enquiry.html                    # Bulk Produce Quotation Form
-│   ├── contact.html                    # Contact Page
-│   ├── css/
-│   │   └── style.css                   # Custom CSS Layout & Theme Styling
-│   ├── js/
-│   │   └── main.js                     # Form Validation & Interactive DOM Scripting
-│   └── assets/                         # Images & Branding Assets
-│
+└── agridirect/                   # AgriDirect SA Project Files
+    ├── Index.html                # Homepage
+    ├── About.html                # About Us & Mission
+    ├── Products.html             # Produce Catalogue (5 Fruits, 5 Vegetables, 5 Herbs)
+    ├── Enquiry.html              # Bulk Produce Quotation Form
+    ├── Contact.html              # Contact Page (Durban & Cape Town hubs, each with its own map)
+    ├── CSS/
+    │   └── style.css             # Layout, theme styling and mobile breakpoints
+    ├── JS/
+    │   └── script.js             # Form validation, mobile nav, live catalogue filter
+    └── images/                   # Produce photos and category graphics
+```
 
+---
 
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack & RequirementsMarkup: HTML5 (Semantic Structure)  Styling: CSS3 (Flexbox, CSS Grid, Media Queries, Custom Variables)  Scripting: JavaScript (ES6+ DOM Operations, Client-side Validation)  Version Control: Git & GitHub  Hosting Staging: GitHub Pages  Development Environment: Visual Studio Code
+- **Markup:** HTML5 (Semantic Structure)
+- **Styling:** CSS3 (Flexbox, CSS Grid, Media Queries, Custom Variables)
+- **Scripting:** JavaScript (ES6+ DOM Operations, Client-side Validation)
+- **Version Control:** Git & GitHub
+- **Hosting:** GitHub Pages
+- **Development Environment:** Visual Studio Code
 
-📄 Website Features Summary
-1. AgriDirect SA
-Produce Inventory Filter: Dynamic categorization for seasonal vegetables, fruits, and bulk grains.
+---
 
-Bulk Quotation Engine: Custom JavaScript form ensuring valid weight (kg/tons) inputs and contact information.
+## 📄 Website Features Summary
 
-Responsive Layout: Flexbox cards adapting cleanly across desktop, tablet, and mobile viewports.
+- **Produce Catalogue:** 15 listings across Vegetables, Fruits and Herbs, each filterable by category or search term.
+- **Bulk Quotation Engine:** Client-side form validation on the Enquiry and Contact forms.
+- **Responsive Layout:** Flexbox/Grid cards and a dedicated sub-480px breakpoint for small phones.
+- **Dual Location Maps:** Durban and Cape Town hubs each embed their own Google Map on the Contact page.
 
-git clone [https://github.com/ST10493769/WEDE5020_POE.git](https://github.com/ST10493769/WEDE5020_POE.git)
+---
 
-📋 PoE Compliance Checklist[x] Part 1: Semantic HTML5 page layout, sitemap implementation, and initial project proposals.  [x] Part 2: Standard CSS styling, responsive media queries, grid systems, and color contrast adherence.  [x] Part 3: Client-side JavaScript form validation, event listeners, dynamic DOM elements, and GitHub Pages staging[cite: 1, 2].👤 Author InformationStudent: Olwethu Simphiwe MkhizeStudent ID: ST10493769Institution: IIE Rosebank College (Durban Campus)Course: Diploma in IT (Software Development)
+## 📋 PoE Compliance Checklist
+
+- [x] Part 1: Semantic HTML5 page layout and site structure.
+- [x] Part 2: Responsive CSS styling, Grid/Flexbox systems, and mobile breakpoints.
+- [x] Part 3: Client-side JavaScript form validation, event listeners, dynamic DOM filtering, and GitHub Pages staging.
+
+## 👤 Author Information
+
+- **Student:** Olwethu Simphiwe Mkhize
+- **Student ID:** ST10493769
+- **Institution:** IIE Rosebank College (Durban Campus)
+- **Course:** Diploma in IT (Software Development)
