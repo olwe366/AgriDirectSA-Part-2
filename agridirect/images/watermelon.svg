@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F8F9FA"/>
+  
+  <g>
+      <circle cx="200" cy="165" r="95" fill="#3B7A3B"/>
+      <path d="M 200 165 L 130 220 A 95 95 0 0 0 270 220 Z" fill="#E8647A"/>
+      <circle cx="175" cy="205" r="4" fill="#1B1B1B"/>
+      <circle cx="200" cy="215" r="4" fill="#1B1B1B"/>
+      <circle cx="225" cy="205" r="4" fill="#1B1B1B"/>
+    </g>
+  <text x="200" y="278" font-family="Segoe UI, sans-serif" font-size="16" fill="#1B4332" text-anchor="middle" opacity="0.6">Seedless Watermelon</text>
+</svg>

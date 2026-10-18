@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F8F9FA"/>
+  
+  <g><path d="M 140 230 Q 160 110 195 95" stroke="#E8C547" stroke-width="26" fill="none" stroke-linecap="round" transform="rotate(-18 160 160)"/><path d="M 180 230 Q 200 110 235 95" stroke="#E8C547" stroke-width="26" fill="none" stroke-linecap="round" transform="rotate(0 200 160)"/><path d="M 220 230 Q 240 110 275 95" stroke="#E8C547" stroke-width="26" fill="none" stroke-linecap="round" transform="rotate(18 240 160)"/><circle cx="200" cy="232" r="10" fill="#6B4F2A"/></g>
+  <text x="200" y="278" font-family="Segoe UI, sans-serif" font-size="16" fill="#1B4332" text-anchor="middle" opacity="0.6">Bananas</text>
+</svg>

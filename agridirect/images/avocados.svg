@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F8F9FA"/>
+  <rect width="400" height="300" fill="#4F6F52" opacity="0.1"/>
+  <g><circle cx="110" cy="180" r="55" fill="#4F6F52"/><circle cx="210" cy="150" r="65" fill="#4F6F52"/><circle cx="300" cy="195" r="50" fill="#4F6F52"/><circle cx="165" cy="225" r="48" fill="#4F6F52"/>
+    <path d="M205 85 q8 -18 24 -14" stroke="#2E4A32" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="236" cy="78" rx="16" ry="9" fill="#2E4A32" transform="rotate(-25 236 78)"/>
+    </g>
+  <text x="200" y="278" font-family="Segoe UI, sans-serif" font-size="16" fill="#1B4332" text-anchor="middle" opacity="0.6">Avocados</text>
+</svg>
