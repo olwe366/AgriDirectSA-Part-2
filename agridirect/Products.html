@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse fresh produce directly from local South African farmers on AgriDirect SA's B2B marketplace.">
+    <title>Produce Catalogue | AgriDirect SA</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <!-- Header & Main Navigation -->
+    <header>
+        <div class="logo">
+            <h1>AgriDirect SA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Enquiry.html">Enquiry</a></li>
+                <li><a href="Products.html" class="active">Products</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Catalogue Content -->
+    <main>
+        <section id="catalogue-header">
+            <h2>Available Farm Produce</h2>
+            <p>Direct pricing from local growers. Filter or search to find produce in your area.</p>
+        </section>
+
+        <!-- Search & Filter Form -->
+        <section id="filter-section">
+            <form action="#" method="get">
+                <label for="search">Search Produce:</label>
+                <input type="text" id="search" name="search" placeholder="e.g. Tomatoes, Spinach...">
+
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="all">All Categories</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="vegetables">Vegetables</option>
+                    <option value="herbs">Herbs</option>
+                </select>
+
+                <button type="submit">Filter Listings</button>
+            </form>
+        </section>
+
+        <!-- Product Grid Listings -->
+        <section id="produce-grid">
+            <article class="product-card" data-category="vegetables">
+                <img src="images/tomatoes.jpg" alt="Crate of red tomatoes ready for wholesale">
+                <h3>Fresh Bulk Tomatoes</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Umngeni Valley Farm</p>
+                <p><strong>Price:</strong> R180 per 10kg Crate</p>
+                <p><strong>Stock Availability:</strong> 45 Crates</p>
+                <p><strong>Location:</strong> Midlands, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="vegetables">
+                <img src="images/spinach.jpg" alt="Freshly harvested spinach bundles">
+                <h3>Organic Spinach Bundles</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Sunshine Organics</p>
+                <p><strong>Price:</strong> R15 per bundle</p>
+                <p><strong>Stock Availability:</strong> 100 Bundles</p>
+                <p><strong>Location:</strong> Ballito, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="vegetables">
+                <img src="images/butternut.svg" alt="Freshly harvested butternut squash">
+                <h3>Butternut Squash</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Midlands Harvest Co-op</p>
+                <p><strong>Price:</strong> R10 each</p>
+                <p><strong>Stock Availability:</strong> 150 Units</p>
+                <p><strong>Location:</strong> Howick, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="vegetables">
+                <img src="images/red-onions.svg" alt="Bag of fresh red onions">
+                <h3>Red Onions</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Valley Fresh Produce</p>
+                <p><strong>Price:</strong> R90 per 10kg Bag</p>
+                <p><strong>Stock Availability:</strong> 70 Bags</p>
+                <p><strong>Location:</strong> Cato Ridge, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="vegetables">
+                <img src="images/potatoes.svg" alt="Bag of fresh baby potatoes">
+                <h3>Baby Potatoes</h3>
+                <p><strong>Category:</strong> Vegetables</p>
+                <p><strong>Farm:</strong> Greenfield Farms</p>
+                <p><strong>Price:</strong> R75 per 10kg Bag</p>
+                <p><strong>Stock Availability:</strong> 90 Bags</p>
+                <p><strong>Location:</strong> Underberg, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="fruits">
+                <img src="images/oranges.svg" alt="Crate of fresh Valencia oranges">
+                <h3>Valencia Oranges</h3>
+                <p><strong>Category:</strong> Fruits</p>
+                <p><strong>Farm:</strong> Sundown Citrus Estate</p>
+                <p><strong>Price:</strong> R120 per 10kg Crate</p>
+                <p><strong>Stock Availability:</strong> 60 Crates</p>
+                <p><strong>Location:</strong> uMhlali, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="fruits">
+                <img src="images/bananas.svg" alt="Bunch of fresh bananas">
+                <h3>Bananas</h3>
+                <p><strong>Category:</strong> Fruits</p>
+                <p><strong>Farm:</strong> Tropical Coast Farms</p>
+                <p><strong>Price:</strong> R95 per 10kg Box</p>
+                <p><strong>Stock Availability:</strong> 55 Boxes</p>
+                <p><strong>Location:</strong> Umzimkulu, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="fruits">
+                <img src="images/apples.svg" alt="Crate of fresh red apples">
+                <h3>Red Apples</h3>
+                <p><strong>Category:</strong> Fruits</p>
+                <p><strong>Farm:</strong> Highland Orchards</p>
+                <p><strong>Price:</strong> R140 per 10kg Crate</p>
+                <p><strong>Stock Availability:</strong> 40 Crates</p>
+                <p><strong>Location:</strong> Drakensberg Foothills, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="fruits">
+                <img src="images/watermelon.svg" alt="Fresh seedless watermelon">
+                <h3>Seedless Watermelon</h3>
+                <p><strong>Category:</strong> Fruits</p>
+                <p><strong>Farm:</strong> Sunbelt Melon Farms</p>
+                <p><strong>Price:</strong> R45 each</p>
+                <p><strong>Stock Availability:</strong> 85 Units</p>
+                <p><strong>Location:</strong> Jozini, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="fruits">
+                <img src="images/avocados.svg" alt="Crate of fresh avocados">
+                <h3>Avocados</h3>
+                <p><strong>Category:</strong> Fruits</p>
+                <p><strong>Farm:</strong> Hillcrest Avo Growers</p>
+                <p><strong>Price:</strong> R160 per 10kg Crate</p>
+                <p><strong>Stock Availability:</strong> 50 Crates</p>
+                <p><strong>Location:</strong> Hillcrest, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="herbs">
+                <img src="images/basil.svg" alt="Bundles of fresh green basil">
+                <h3>Fresh Basil Bundles</h3>
+                <p><strong>Category:</strong> Herbs</p>
+                <p><strong>Farm:</strong> Green Leaf Herb Co-op</p>
+                <p><strong>Price:</strong> R22 per bundle</p>
+                <p><strong>Stock Availability:</strong> 80 Bundles</p>
+                <p><strong>Location:</strong> Hillcrest, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="herbs">
+                <img src="images/coriander.svg" alt="Bundles of fresh coriander">
+                <h3>Fresh Coriander</h3>
+                <p><strong>Category:</strong> Herbs</p>
+                <p><strong>Farm:</strong> Green Leaf Herb Co-op</p>
+                <p><strong>Price:</strong> R18 per bundle</p>
+                <p><strong>Stock Availability:</strong> 95 Bundles</p>
+                <p><strong>Location:</strong> Hillcrest, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="herbs">
+                <img src="images/mint.svg" alt="Bundles of fresh mint">
+                <h3>Fresh Mint</h3>
+                <p><strong>Category:</strong> Herbs</p>
+                <p><strong>Farm:</strong> Green Leaf Herb Co-op</p>
+                <p><strong>Price:</strong> R18 per bundle</p>
+                <p><strong>Stock Availability:</strong> 70 Bundles</p>
+                <p><strong>Location:</strong> Hillcrest, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="herbs">
+                <img src="images/rosemary.svg" alt="Sprigs of fresh rosemary">
+                <h3>Rosemary Sprigs</h3>
+                <p><strong>Category:</strong> Herbs</p>
+                <p><strong>Farm:</strong> Berg Herb Gardens</p>
+                <p><strong>Price:</strong> R20 per bundle</p>
+                <p><strong>Stock Availability:</strong> 60 Bundles</p>
+                <p><strong>Location:</strong> Karkloof, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+
+            <article class="product-card" data-category="herbs">
+                <img src="images/thyme.svg" alt="Sprigs of fresh thyme">
+                <h3>Thyme Sprigs</h3>
+                <p><strong>Category:</strong> Herbs</p>
+                <p><strong>Farm:</strong> Berg Herb Gardens</p>
+                <p><strong>Price:</strong> R20 per bundle</p>
+                <p><strong>Stock Availability:</strong> 65 Bundles</p>
+                <p><strong>Location:</strong> Karkloof, KZN</p>
+                <button type="button" onclick="location.href='Enquiry.html'">Request Quote</button>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer Area -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>AgriDirect SA</h3>
+                <p>Connecting South African smallholder farmers directly with commercial buyers.</p>
+            </div>
+            <nav class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Enquiry.html">Enquiry</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <h4>Get in Touch</h4>
+                <p>Durban: durban@agridirect.co.za</p>
+                <p>Cape Town: capetown@agridirect.co.za</p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2026 AgriDirect SA. All rights reserved.</p>
+        <!-- JavaScript File Link -->
+    <script src="JS/script.js"></script>
+    </footer>
+
+</body>
+</html>
