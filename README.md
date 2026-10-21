@@ -154,7 +154,7 @@ No build step required.
 
 ## Deployment
 Hosted on **GitHub Pages**, serving from the `main` branch root, so every page under `agridirect/` is reachable at:
-https://olwe366.github.io/AgriDirectSA-Part-2/agridirect/<Index>.html
+https://deft-kleicha-aa9f0d.netlify.app/
 
 ## Known Limitations
 This is an academic prototype, not a production marketplace.
